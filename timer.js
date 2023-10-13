@@ -31,9 +31,7 @@ function counting(){
 
    time.innerHTML =`${hours}:${minutes}:${seconds}`;
 
-   if(count !== 0){
    start.classList.add("selected");
-   }
 
 }
  

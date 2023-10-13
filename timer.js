@@ -38,4 +38,5 @@ stop.addEventListener("click", () => {
 reset.addEventListener("click", () => {
    clearInterval(change);
    time.innerHTML = `00:00:00`;
+   count = 0;
 });

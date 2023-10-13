@@ -4,12 +4,11 @@ const stop = document.getElementById("stop");
 const reset = document.getElementById("reset");
 let count = 0;
 let change;
-let gauge;
 
 
 start.addEventListener("click", () => {
    change = setInterval(counting, 1000);
-   gauge++;
+   start.classList.add("selected");
 });
 
 function counting(){
@@ -30,8 +29,6 @@ function counting(){
    }
 
    time.innerHTML =`${hours}:${minutes}:${seconds}`;
-
-   start.classList.add("selected");
 
 }
  

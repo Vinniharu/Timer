@@ -43,7 +43,7 @@
    cursor: pointer;
 }
 
-@media all and (max-width: 500px) {
+@media screen and (max-width: 500px) {
    #num{
       font-size: 40px;
    }
